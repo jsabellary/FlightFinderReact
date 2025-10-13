@@ -7,7 +7,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'http://localhost:52875',
+        target: 'https://flightfinder-gjfpcvakfwhxd5bz.uksouth-01.azurewebsites.net',
         changeOrigin: true,
         secure: false
       }
